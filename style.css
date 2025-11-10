@@ -4,6 +4,7 @@ body {
     animation: gradient 15s ease infinite;
     min-height: 100vh;
     margin: 0;
+    padding: 35px;
 }
 
 @keyframes gradient {
@@ -18,8 +19,17 @@ body {
     }
 }
 
+.header {
+    margin-bottom: 30px;
+    background-color: #ffd5e3;
+    display: flex;
+    align-items: center;
+}
+
 .Facts-form {
     background: #c06262;
+    margin-bottom: 30px;
+    padding: 15px 35px;
 }
 
 h1 {
@@ -34,11 +44,20 @@ h1 {
     font-size: 17px;
     line-height: 1.1;
     font-family: "Sono",sans-serif;
+    margin-bottom: 12px;
+    padding: 15px 25px;
+
 }
 
 .Category {
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: 600;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 
 ul {
