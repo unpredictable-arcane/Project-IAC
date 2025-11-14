@@ -35,7 +35,8 @@ body {
 }
 
 .Facts-form {
-    background: #c06262;
+    background: #5bc3f8;
+    border-radius: .5rem;
     margin-bottom: 30px;
     padding: 15px 35px;
     text-align: center;
@@ -55,22 +56,32 @@ h1 {
 }
 
 .Facts {
+    background-color: #717171;
+    border-radius: 1.5rem;
+    color: aliceblue;
     font-size: 17px;
     line-height: 1.1;
     font-family: "Sono",sans-serif;
     margin-bottom: 12px;
     padding: 15px 25px;
-
+    display: flex;
+    align-items: centre;
+    gap: 24px;
+    letter-spacing: -1px;
 }
 
 .Category {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-bottom: .5px;
     padding-left: 5px;
     padding-right: 5px;
+
+}
+
+.vote-buttons {
 
 }
 
