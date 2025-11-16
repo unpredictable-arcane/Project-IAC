@@ -71,6 +71,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+.category {
+ margin-bottom: 15px;
+}
+
 .Facts {
     background-color: #717171;
     border-radius: 1.5rem;
@@ -133,5 +137,15 @@ ul {
 
 .btn-large {
     font-size: 20px;
-    padding: 20px 30px 15px;
+    padding: 20px 35px 15px;  
+}
+
+.btn-all-categories {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.btn-categories {
+    width: 100%;
+    background-image: none;
 }

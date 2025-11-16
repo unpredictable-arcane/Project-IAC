@@ -28,7 +28,7 @@
         <input type="text" placeholder="Share a fact with us...."/>
         <span>300</span>
         <input type="text" placeholder="Legit Source.." />
-        <select>
+        <select title="Choose category" aria-label="Choose category">
             <option value="">Choose category:</option>
             <option value="all">All</option>
             <option value="classical-mechanics">Classical Mechanics</option>
@@ -43,22 +43,21 @@
             <option value="matter-physics">Matter Physics</option>
         </select>
         <button class="btn btn-large">Publish</button>
-    </form >
-
+    </form>
     <main class="main">
        <aside>
         <ul>
-        <li><button class="btn btn-all-categories">All</button> </li>  
-        <li><button class="btn">Classical Mechanics</button></li>   
-        <li><button class="btn">Thermodynamics</button></li> 
-        <li><button class="btn">Electromagnetism</button> </li>  
-        <li><button class="btn">Optics</button></li>   
-        <li><button class="btn">Quantum Mechanics</button></li>
-        <li><button class="btn">Relativity</button>  </li> 
-        <li><button class="btn">Nuclear Physics</button></li> 
-        <li><button class="btn">High-Energy Physics</button></li>
-        <li><button class="btn">Astrophysics</button></li>  
-        <li><button class="btn">matter Physics</button></li>
+        <li class="category"><button class="btn btn-all-categories">All</button> </li>  
+        <li class="category"><button class="btn btn-categories" style="background-color: #5ee834;">Classical Mechanics</button></li>   
+        <li class="category"><button class="btn btn-categories" style="background-color: #ff6b6b;">Thermodynamics</button></li> 
+        <li class="category"><button class="btn btn-categories" style="background-color: #9d65d6;">Electromagnetism</button> </li>  
+        <li class="category"><button class="btn btn-categories" style="background-color: #bd0a49;">Optics</button></li>   
+        <li class="category"><button class="btn btn-categories" style="background-color: #8b974e;">Quantum Mechanics</button></li>
+        <li class="category"><button class="btn btn-categories" style="background-color: #f3fa2a;">Relativity</button>  </li> 
+        <li class="category"><button class="btn btn-categories" style="background-color: #762a2a;">Nuclear Physics</button></li> 
+        <li class="category"><button class="btn btn-categories" style="background-color: #fd54d6;">High-Energy Physics</button></li>
+        <li class="category"><button class="btn btn-categories" style="background-color: #4934e8;">Astrophysics</button></li>  
+        <li class="category"><button class="btn btn-categories" style="background-color: #4e524e;">matter Physics</button></li>
         </ul> 
        </aside>
 
@@ -81,7 +80,7 @@
         <li class="Facts">
             <p>
                 Muons are heavier cousins of electrons and are commonly produced by cosmic rays hitting the atmosphere.Their short lifetime and relativistic time dilation let many reach Earth’s surface.
-                <a class="source" href="https://en.wikipedia.org/wiki/Muon" target="_blank">(Source)</a>
+                <a class="source" href="https://en.wikipedia.org/wiki/Muon" target="_blank" rel="noopener noreferrer">(Source)</a>
             </p>
             <span class="Category" style="background-color: rgb(51, 255, 255);">#Nuclear Physics#</span>
                  <div class="vote-buttons">
