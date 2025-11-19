@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background: linear-gradient(-45deg, #e98668, #df89a8, #68aec8, #64cb88);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+    font-weight: 600px;
     min-height: 100vh;
     margin: 0;
     padding: 35px;
@@ -104,6 +110,9 @@ h1 {
 
 .vote-buttons {
  margin-left: auto;
+ flex-shrink: 0;
+ display: flex;
+ gap: 6px;
 }
 
 .vote-buttons button {
@@ -113,6 +122,12 @@ h1 {
     padding: 5px 10px;
     font-family: inherit;
     border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.vote-buttons button:hover {
+    background-color: oklch(55.3% 0.013 58.071);
 }
 
 ul {
